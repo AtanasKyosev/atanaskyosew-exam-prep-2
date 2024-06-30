@@ -1,4 +1,4 @@
-const assert = require('assert');
+  const assert = require('assert');
 const fetch = require('node-fetch');
 
 suite('About page', function() {
