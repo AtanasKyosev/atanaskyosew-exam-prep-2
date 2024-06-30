@@ -27,6 +27,7 @@ jobs:
   
   execute-ui-test:
     runs-on: ubuntu-latest
+    needs: build-and-unit-test
 
     steps:
     - uses: actions/checkout@v4
